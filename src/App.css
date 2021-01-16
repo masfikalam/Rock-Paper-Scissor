@@ -1,0 +1,34 @@
+/* login section */
+#login {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #16db90, #1dd6d6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#login h3 {
+    filter: drop-shadow(0 0 2px #505050);
+}
+#login h6 {
+    color: #2e3cff;
+}
+#login label {
+    user-select: none;
+}
+#login label:active {
+    box-shadow: none;
+}
+#login button.btn {
+    background: #adfd2b;
+}
+
+/* games section */
+#game .btn-group span {
+    background-color: #ffdc90;
+    cursor: pointer;
+    padding: 3px 5px;
+}
+#game .btn-group span:active {
+    transform: scale(0.95);
+    transition: .3s ease;
+}
